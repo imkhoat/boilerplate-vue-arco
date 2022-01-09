@@ -25,6 +25,6 @@ watch(
   <component :is="layout"> <router-view /> </component>
 </template>
 
-<style>
-@import '@/assets/base.css';
+<style lang="less">
+@import '@/assets/less/index.less';
 </style>
