@@ -1,17 +1,30 @@
 .arco-form-item-label {
   font-weight: bold;
 }
-.arco-input.arco-input-size-large {
-  height: 36px;
+
+/* ===============
+* Custome theme
+================*/
+.fil-input {
+  .arco-input {
+    height: 36px;
+  }
+  .arco-checkbox-icon {
+    height: 20px;
+    width: 20px;
+  }
+  .arco-checkbox-icon-check {
+    width: 12px;
+  }
+  &.arco-input-wrapper {
+    border-radius: @border-radius-large;
+  }
 }
-.arco-input-wrapper,
-.arco-btn {
-  border-radius: 8px;
-}
-.arco-btn.arco-btn-size-large {
-  height: 48px;
-}
-.arco-checkbox-icon {
-  height: 20px;
-  width: 20px;
+.fil-btn {
+  &.arco-btn {
+    border-radius: @border-radius-large;
+  }
+  &.arco-btn.arco-btn-size-large {
+    height: 48px;
+  }
 }

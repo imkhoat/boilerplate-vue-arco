@@ -1,18 +1,18 @@
-import PageLogin from '@/modules/auth/pages/page-login.vue'
-import PageRegister from '@/modules/auth/pages/page-register.vue'
+import PageSignin from '@/modules/auth/pages/page-signin.vue'
+import PageSignup from '@/modules/auth/pages/page-signup.vue'
 import PageForgotPassword from '@/modules/auth/pages/page-forgot-password.vue'
 
 const routes = [
   {
-    path: '/auth/login',
-    name: 'PageLogin',
-    component: PageLogin,
+    path: '/auth/signin',
+    name: 'PageSignin',
+    component: PageSignin,
     meta: { layout: 'app-layout-auth' },
   },
   {
-    path: '/auth/register',
-    name: 'PageRegister',
-    component: PageRegister,
+    path: '/auth/signup',
+    name: 'PageSignup',
+    component: PageSignup,
     meta: { layout: 'app-layout-auth' },
   },
   {

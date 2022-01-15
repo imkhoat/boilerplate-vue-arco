@@ -1,8 +1,8 @@
 <template>
   <div class="layout-default">
-    Header Component Admin
+    Header Component
     <slot></slot>
-    Footer Component Admin
+    Footer Component
   </div>
 </template>
 <script lang="ts">
